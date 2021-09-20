@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:exported="true"
+            android:authorities="dev.wendyyanto.dictionaryappexample.dictionary"
+            android:name=".contentprovider.DictionaryContentProvider" />
     </application>
 
 </manifest>
